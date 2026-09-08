@@ -1,0 +1,13 @@
+# Runtime / state
+*.log
+.cache/
+state/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store

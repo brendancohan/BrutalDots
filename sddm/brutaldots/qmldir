@@ -1,0 +1,7 @@
+# Only the singletons need declaring. Sibling .qml files in this directory
+# still resolve implicitly by filename even though a qmldir exists, so the
+# copied Brutal* components are importable without being listed here — which
+# is what keeps this file from having to be regenerated whenever the component
+# set changes.
+singleton Theme Theme.qml
+singleton Icons Icons.qml
