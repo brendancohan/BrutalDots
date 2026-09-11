@@ -66,11 +66,6 @@ Variants {
             focus: !win.desktopLayer
             Keys.onEscapePressed: ShellState.widgetsOpen = false
 
-            MouseArea {
-                anchors.fill: parent
-                enabled: !win.desktopLayer
-                onClicked: ShellState.widgetsOpen = false
-            }
 
             opacity: ShellState.widgetsOpen ? 1 : 0
 
