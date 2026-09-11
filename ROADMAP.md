@@ -4,7 +4,6 @@
 
 ## Backlog
 
-- [ ] [FEATURE] Monitor/workspace configuration
 - [ ] [FEATURE] Power profiles
 - [ ] [FEATURE] Edit dashboard apps and links
 - [ ] [FEATURE] Matugen palettes
@@ -24,10 +23,12 @@
 
 ## Done
 
+- [x] [FEATURE]Roadmap.md Sync
 - [x] [BUG] Tasks widget won't close with click
 - [x] Feature Request Roadmap
+- [x] Add GitHub Action to automatically sync ROADMAP.md from Project board
 
 ## In progress
 
-- [-] **[IN PROGRESS]** [FEATURE]Roadmap.md Sync
+- [-] **[IN PROGRESS]** [FEATURE] Monitor/workspace configuration
 
