@@ -26,6 +26,7 @@
 
 - [x] [BUG] Tasks widget won't close with click
 - [x] Feature Request Roadmap
+- [x] Add GitHub Action to automatically sync ROADMAP.md from Project board
 
 ## In progress
 
