@@ -1,29 +1,33 @@
 # BrutalDots Roadmap
 
-## Features & Settings
+> *Automatically synchronized from the GitHub Project Board.*
 
-- [x] Tasks widget(s) can't be closed except with super+W keybind. Seems logical to click the button again to close
-- [ ] Monitor/workspace configuration section in settings dashboard (wdisplays/nwg-displays)
-- [ ] Power profiles (power-profiles-daemon)
-- [ ] Settings option for editing dashboard app shortcuts and links
-- [ ] More robust networking (wired management, multiple NICs, VPN management, Enterprise WPA2(eduroam), nm-connection-editor)
-- [ ] Options for matugen palettes
-- [ ] Global UI Scaling
-- [ ] Keyboard layout management
-- [ ] Wallpaper directory configuration and random wallpaper cycling
-- [ ] Snapshot management (Timeshift/Snapper). Include snapshot prior to installation in script
-- [ ] Advanced Audio GUI (pavucontrol/easyeffects)
-- [ ] Advanced BT GUI for trusted devices, PINs, headset audio profiles (blueman)
-- [ ] Screen Record preferences: toggle audio cap, framerates, output directory, etc.
-- [ ] Caffeine mode toggle switch similar to "Stay awake in fullscreen"
-- [ ] Collapse or hide passive system tray icons
-- [ ] Night light temperature slider and automatic schedule option
+## Backlog
 
-## Installation Improvements (OOB Solution)
+- [ ] [FEATURE] Monitor/workspace configuration
+- [ ] [FEATURE] Power profiles
+- [ ] [FEATURE] Edit dashboard apps and links
+- [ ] [FEATURE] Matugen palettes
+- [ ] [FEATURE] Global UI Scaling
+- [ ] [FEATURE] Keyboard layout management
+- [ ] [FEATURE] Wallpaper directory configuration and random cycling
+- [ ] [FEATURE] Snapshots during installation
+- [ ] [FEATURE] Advanced audio GUI
+- [ ] [FEATURE] Advanced bluetooth GUI
+- [ ] [FEATURE] Screen recorder preferences
+- [ ] [FEATURE] Show/hide system tray icons
+- [ ] [FEATURE] Nightlight adjustment and scheduler
+- [ ] [FEATURE] Allow selecting default apps during installation
+- [ ] [FEATURE] Driver config
+- [ ] [FEATURE] Updater
+- [ ] [FEATURE] "Welcome" screen
 
-- [ ] Include selection of some default apps in installation script i.e. browser, file explorer, media player, etc.
-- [ ] AUR helper bootstrapping
-- [ ] Hardware driver config
-- [ ] Interactive TUI menus with fzf if installation script becomes more complex
-- [ ] Updater script feature (?)
-- [ ] Welcome/Guide pop-up for new users (?)
+## Done
+
+- [x] [BUG] Tasks widget won't close with click
+- [x] Feature Request Roadmap
+
+## In progress
+
+- [-] **[IN PROGRESS]** [FEATURE]Roadmap.md Sync
+
