@@ -49,7 +49,7 @@ Variants {
         exclusiveZone: 0
         WlrLayershell.layer: win.desktopLayer ? WlrLayer.Bottom : WlrLayer.Top
         WlrLayershell.keyboardFocus: win.desktopLayer
-            ? WlrKeyboardFocus.None : WlrKeyboardFocus.Exclusive
+            ? WlrKeyboardFocus.None : WlrKeyboardFocus.OnDemand
         WlrLayershell.namespace: "brutaldots-widgets"
 
         readonly property int edge: Theme.space.xl
@@ -65,6 +65,7 @@ Variants {
             // keyboard, so it must not claim focus away from a real window.
             focus: !win.desktopLayer
             Keys.onEscapePressed: ShellState.widgetsOpen = false
+
 
             opacity: ShellState.widgetsOpen ? 1 : 0
 
