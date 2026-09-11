@@ -1,0 +1,34 @@
+name: Sync Roadmap
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    # Allows manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run synchronization script
+        env:
+          PROJECT_READ_PAT: ${{ secrets.PROJECT_READ_PAT }}
+        run: python .github/scripts/sync_roadmap.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update ROADMAP.md from GitHub Project"
+          file_pattern: "ROADMAP.md"
